@@ -1,2 +1,2 @@
-# textScn
-It would be the project of the OCR app for the marathi app
+# Python Capstone Projects
+It would be the project Python Capstone Projects
