@@ -1,15 +1,6 @@
 #Next Prime Number : Have the program find prime numbers until the user chooses to stop asking for the next one.
 
 
-# m = 'y'
-
-# while (m!='n'):
-# 	choice = input("Do you want to find next Prime Number (y/n) ")
-# 	if choice == "y":
-# 		m = 'y'
-
-		#logic for the prime numbers
-
 def isprime(n):
     if n < 2: return False
     for i in range(2, n):
