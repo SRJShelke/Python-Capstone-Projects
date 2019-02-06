@@ -1,4 +1,4 @@
-#Next Prime Number : Have the program find prime numbers until the user chooses to stop asking for the next one.
+'''Next Prime Number - Have the program find prime numbers until the user chooses to stop asking for the next one.'''
 
 def isPrime(n):
     if n < 2: return False
