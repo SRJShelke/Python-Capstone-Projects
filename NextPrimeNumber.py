@@ -18,15 +18,14 @@ def isprime(n):
     return True
 
 primes = (i for i in range(1000) if isprime(i))
-choice = 0
-while (choice!='n'):
-	choice = raw_input("Next?")
-	count= 0
-	if count < 10 :
-		# for p in primes:
-		# 	print p
-		count = count++
-		print count
-		count = count+1
-
-    
+prime_num = list(primes)
+choice = "Y"
+count= 0
+while (choice!='N'):
+	if choice == "Y":
+		choice = input("Next?(Y/N)")
+		if count < 100 :
+			print(prime_num[count])
+			count = count+1
+	else :
+		choice =input("Please Enter the correct input (Y/N)")
